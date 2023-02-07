@@ -28,7 +28,7 @@ function Navbar(){
                 <a href="/#!">Servicios</a>
                 <a href="/#!">Contacto</a>
                 {/* eslint-disable-next-line */}
-                <BsInstagram><a href="https://www.instagram.com/exodigitalcba/" target="_blank" rel="noopener noreferrer"></a></BsInstagram>
+                <BsInstagram id='ig'><a href="https://www.instagram.com/exodigitalcba/" target="_blank" rel="noopener noreferrer"></a></BsInstagram>
                 <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                     <FaTimes/>
                 </button>
