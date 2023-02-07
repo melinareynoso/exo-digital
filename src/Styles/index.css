@@ -71,6 +71,10 @@ header .nav-btn {
   font-size: 1.8 rem;
 }
 
+header svg{
+cursor: pointer;
+}
+
 header div,
 nav {
   display: flex;
