@@ -1,7 +1,11 @@
 
 import {FaBars, FaTimes} from 'react-icons/fa';
+import {BsInstagram} from 'react-icons/bs'
 import { useRef } from 'react';
 import '../Styles/App.css';
+import logo from '../Images/logoheader.png';
+
+
 
 
 function Navbar(){
@@ -14,8 +18,8 @@ function Navbar(){
 
     return (
         <header>
-            <div>
-                <img src='/logoheader.png'/>
+            <div id='left'>
+                <img src={logo} alt='Logo-header' width="150px"/>
             </div>
             
 
@@ -23,7 +27,8 @@ function Navbar(){
                 <a href="/#!">Inicio</a>
                 <a href="/#!">Servicios</a>
                 <a href="/#!">Contacto</a>
-                <a href="/#!">Instagram</a>
+                {/* eslint-disable-next-line */}
+                <BsInstagram><a href="https://www.instagram.com/exodigitalcba/" target="_blank" rel="noopener noreferrer"></a></BsInstagram>
                 <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                     <FaTimes/>
                 </button>

@@ -55,10 +55,11 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--pink);
+  font-weight: bold;
 }
 
 header .nav-btn {
+  margin-right: 15px;
   padding: 5px;
   cursor: pointer;
   background: transparent;
@@ -75,6 +76,10 @@ nav {
   display: flex;
   align-items: center;
   
+}
+
+div #left{
+margin-left: 20px;
 }
 
 @media only screen and (max-width: 1024px) {
