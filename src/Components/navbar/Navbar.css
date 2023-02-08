@@ -1,43 +1,3 @@
-@import url("../fonts/gotham/stylesheet.css");
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --tipo-titular: 'Gotham-Bold';
-  --tipo-medium: 'Gotham-Medium';
-  --tipo-principal: 'Gotham-Book';
-  --violet: #5322EF;
-  --azul: #0000FF;
-  --pink: #FF7BAC;
-  --textColor: #eee;
-}
-
-h1 {
-  font-family: var(--tipo-titular);
-}
-
-h2,
-h3,
-h4,
-h6 {
-  font-family: var(--tipo-medium);
-}
-
-p,
-a {
-  font-family: var(--tipo-principal);
-
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -127,8 +87,4 @@ margin-left: 20px;
   header #ig{
     display: none;
   }
-}
-
-section{
-  background-color: red;
 }

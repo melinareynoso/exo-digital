@@ -1,14 +1,21 @@
 import React from 'react';
-import './Styles/App.css';                      
-import Navbar from './Components/Navbar.js';
-import Home from './Components/Home.js';
+import './App.css';                      
+import Navbar from './Components/navbar/Navbar';
+import Section1 from './Components/section1/section1';
+import Section2 from './Components/section2/section2';
+import Section3 from './Components/section3/section3';
+import Section4 from './Components/section4/section4';
+
 
 
 function App() {
   return (
     <React.Fragment>
       <Navbar />
-      <Home />
+      <Section1/>
+      <Section2/>
+      <Section3/>
+      <Section4/>
     </React.Fragment>
   );
 }
